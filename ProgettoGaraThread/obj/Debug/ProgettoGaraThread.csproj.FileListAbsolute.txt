@@ -1,0 +1,3 @@
+C:\Users\sunki\source\repos\ProgettoGaraThread\ProgettoGaraThread\obj\Debug\ProgettoGaraThread.csprojAssemblyReference.cache
+C:\Users\sunki\source\repos\ProgettoGaraThread\ProgettoGaraThread\obj\Debug\App.g.cs
+C:\Users\sunki\source\repos\ProgettoGaraThread\ProgettoGaraThread\obj\Debug\ProgettoGaraThread_MarkupCompile.cache
