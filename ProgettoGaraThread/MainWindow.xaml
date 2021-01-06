@@ -7,16 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="1011.254">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="792*"/>
-            <ColumnDefinition Width="211*"/>
-        </Grid.ColumnDefinitions>
-        <Image x:Name="imgSfondo" HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="792" Source="sfondoGara.png" Stretch="Fill"/>
-        <Image x:Name="imgAuto2" HorizontalAlignment="Left" Height="87" Margin="20,158,0,0" VerticalAlignment="Top" Width="92" Source="Auto2,png"/>
-        <Image x:Name="imgAuto1" HorizontalAlignment="Left" Height="87" Margin="20,287,0,0" VerticalAlignment="Top" Width="92" Source="Auto1.png"/>
-        <Image x:Name="imgAuto3" HorizontalAlignment="Left" Height="78" Margin="20,10,0,0" VerticalAlignment="Top" Width="92" Source="Auto3.png"/>
-        <ListBox x:Name="lstPosizionifinali" Grid.Column="1" HorizontalAlignment="Left" Height="303" Margin="5,0,0,0" VerticalAlignment="Top" Width="206"/>
-        <Button x:Name="btnInizio" Content="Bang!" Grid.Column="1" HorizontalAlignment="Left" Margin="5,308,0,0" VerticalAlignment="Top" Width="206" Height="101" Click="btnInizio_Click"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="264*"/>
+            <RowDefinition Height="155*"/>
+        </Grid.RowDefinitions>
+        <Image x:Name="imgSfondo" HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="792" Source="sfondoGara.png" Stretch="Fill" Margin="211,0,0,0" Grid.RowSpan="2"/>
+        <Image x:Name="imgAuto2" HorizontalAlignment="Left" Height="55" Margin="228,189,0,0" VerticalAlignment="Top" Width="92" Source="Auto2 .png" Stretch="Uniform" RenderTransformOrigin="0.498,0.541"/>
+        <Image x:Name="imgAuto1" HorizontalAlignment="Left" Height="55" Margin="228,54.164,0,0" VerticalAlignment="Top" Width="92" Source="Auto1.png" Grid.Row="1"/>
+        <Image x:Name="imgAuto3" HorizontalAlignment="Left" Height="100" Margin="228,24,0,0" VerticalAlignment="Top" Width="92" Source="Auto3.png"/>
+        <ListBox x:Name="lstPosizionifinali" HorizontalAlignment="Left" Height="313" Margin="5,0,0,0" VerticalAlignment="Top" Width="206" Grid.RowSpan="2"/>
+        <Button x:Name="btnInizio" Content="Bang!" HorizontalAlignment="Left" Margin="0,54.164,0,0" VerticalAlignment="Top" Width="206" Height="101" Click="btnInizio_Click" Grid.Row="1"/>
 
     </Grid>
 </Window>
