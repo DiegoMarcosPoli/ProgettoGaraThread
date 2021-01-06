@@ -95,10 +95,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Auto1.png" />
-    <Resource Include="Auto2png.png" />
-    <Resource Include="Auto3.png" />
     <Resource Include="sfondoGara.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Auto1.PNG" />
+    <Resource Include="Auto2 .png" />
+    <Resource Include="auto3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
